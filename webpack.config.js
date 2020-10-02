@@ -13,7 +13,7 @@ module.exports = ({ mode = 'development' }) => ({
   },
 
   resolve: {
-    extensions: ['css', 'scss', 'js', 'jsx'],
+    extensions: ['.css', '.scss', '.js', '.jsx'],
   },
 
   module: {
